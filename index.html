@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Muhammad Imam Hussain</title>
+<meta name="description" content="Muhammad Imam Hussain, PhD candidate in Economics at Binghamton University on the 2026–27 job market. Research on monetary policy implementation, money markets, and bank liquidity; formerly an economist at the IMF and Bangladesh Bank.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Inter:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top" id="top">
+  <a class="brand" href="index.html">Muhammad Imam Hussain</a>
+  <nav aria-label="Site"><ul><li><a href="index.html" aria-current="page">Home</a></li><li><a href="research.html">Research</a></li><li><a href="teaching.html">Teaching</a></li><li><a href="experience.html">Experience</a></li><li><a href="https://drive.google.com/file/d/1rUlHVZHdt0WxTR6BMNs0Qq9hZiYR4fDz/view?usp=drive_link">CV</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+</header>
+<hr class="bar-rule">
+<main class="page">
+<div class="hero">
+  <div>
+    <p class="kicker">2026–27 job market</p>
+    <h1>Muhammad Imam Hussain</h1>
+    <p class="role">PhD Candidate, Department of Economics<br>Binghamton University (SUNY)</p>
+    <h2 class="tagline">Monetary policy implementation, money markets, and bank liquidity</h2>
+    <p class="lede">I study how reserve shocks reach the overnight rate and which banks bear the adjustment. My broader interests include international finance and financial stability.</p>
+    <p class="lede">I expect to graduate in May 2027. Before my doctoral studies, I spent nearly ten years in economist and policy roles at the International Monetary Fund and Bangladesh Bank, the central bank of Bangladesh.</p>
+    <div class="actions">
+      <a class="btn" href="https://drive.google.com/file/d/1rUlHVZHdt0WxTR6BMNs0Qq9hZiYR4fDz/view?usp=drive_link">Curriculum vitae</a>
+      <a class="arrow" href="mailto:mhussai7@binghamton.edu">Email me</a>
+    </div>
+  </div>
+  <div class="portrait">
+    <img class="photo" src="assets/photo.jpg" alt="Muhammad Imam Hussain" width="200" height="250">
+    <div class="initials" id="initials" hidden aria-hidden="true">MIH</div>
+    <div class="fields"><p class="label">Research fields</p><ul><li>Macroeconomics</li><li>Monetary Economics</li><li>International Finance</li></ul></div>
+  </div>
+</div>
+
+<section class="block">
+  <p class="kicker">Job market paper</p>
+  <h2 class="paper-title"><a href="https://drive.google.com/file/d/1ZvtWmAhzeg25zDuU52TJA03BKFkpzJ76/view?usp=drive_link">Bangladesh’s Experience with the Adoption of Interest Rate Targeting</a></h2>
+  <p class="summary">Why did Bangladesh’s overnight rate move away from its target after the 2023 switch to interest rate targeting? A reserve demand model and daily evidence across three operating regimes are consistent with the central bank’s limited ability to supply reserves.</p>
+  <div class="links"><a class="arrow" href="https://drive.google.com/file/d/1ZvtWmAhzeg25zDuU52TJA03BKFkpzJ76/view?usp=drive_link">Paper (PDF)</a><a class="arrow" href="research.html#jmp">Abstract</a></div>
+</section>
+
+<section class="block">
+  <p class="kicker">Other research</p>
+  <div class="titles">
+    <p><a href="research.html#working">Who Absorbs a Reserve Drain? Monetary Operating Frameworks and Distributional Reserve Scarcity</a><span class="sub"> · working paper, under review</span></p>
+    <p><a href="research.html#progress">Imported Energy Shocks: Inflation Expectations, Monetary Policy, and Distributional Effects</a><span class="sub"> · work in progress</span></p>
+    <p><a href="research.html#external">The Role of External Account Dynamics in Transitions to Higher Income Status: Panel Data Evidence</a><span class="sub"> · work in progress</span></p>
+    <p><a href="research.html#liquidity">Global Liquidity Components, Depository Corporations, and Money Market Fragility</a><span class="sub"> · work in progress</span></p>
+  </div>
+</section>
+
+<section class="block">
+  <p class="kicker">Education</p>
+  <div class="edu">
+    <div class="item"><span>PhD in Economics, Binghamton University (SUNY)</span><span class="when">expected May 2027</span></div>
+    <div class="item"><span>Master of Public Policy, The University of Tokyo<br><span class="sub">Japan–IMF Scholarship Program for Asia</span></span><span class="when">2014</span></div>
+    <div class="item"><span>MSS and BSS (Honors) in Economics, University of Dhaka</span><span class="when">2009 and 2008</span></div>
+  </div>
+</section>
+</main>
+<footer>
+  <span>© 2026 Muhammad Imam Hussain</span>
+  <a href="mailto:mhussai7@binghamton.edu">mhussai7@binghamton.edu</a>
+  <a href="#top">Back to top</a>
+</footer>
+<script>
+(function () {
+  var img = document.querySelector('img.photo'), ini = document.getElementById('initials');
+  if (!img || !ini) return;
+  function fallback() { img.hidden = true; ini.hidden = false; }
+  img.addEventListener('error', fallback);
+  if (img.complete && img.naturalWidth === 0) fallback();
+})();
+</script>
+</body>
+</html>
