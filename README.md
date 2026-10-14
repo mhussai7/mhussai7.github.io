@@ -9,7 +9,7 @@ teaching.html   Instructor and teaching assistant record
 experience.html Professional experience at the IMF and Bangladesh Bank
 contact.html    Email, phone, mailing address, LinkedIn
 cv.html         Forwards muhammadimamhussain.com/cv to the CV PDF (a stable address for the CV's own header line)
-CV_of_Muhammad_Imam_Hussain.pdf   The CV. To update it, upload the new PDF under the same name (Add file → Upload files, then Commit)
+CV of Muhammad Imam Hussain.pdf   The CV. To update it, upload the new PDF under the same name (Add file → Upload files, then Commit)
 style.css       Layout, fonts, light and dark themes
 assets/         photo.jpg (your portrait, 4:5 crop)
 .nojekyll       Tells GitHub Pages to serve the files exactly as they are
@@ -62,7 +62,7 @@ within a minute. Or connect GitHub to Claude and ask Claude to make the change.
 
 ## 4. Keeping the content current
 
-- The CV is the file CV_of_Muhammad_Imam_Hussain.pdf in the repository; upload a new PDF with the same name to update it.
+- The CV is the file "CV of Muhammad Imam Hussain.pdf" in the repository; upload a new PDF with the same name to update it.
 - The job market paper link points to your Google Drive file. Replacing it on Drive
   (right-click → Manage versions → Upload new version) keeps the link unchanged, so the site needs no edit.
 - The job-market label on the home page and the year in the footer are the only dated items.
